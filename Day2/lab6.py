@@ -1,21 +1,19 @@
 #
-Distance = 4
-bus_speed = 25/60    #converted mph to mpm(miles per minute)
-wait_time = 2
-bus_stops = 10
-waiting = wait_time * bus_stops
-bus_time = bus_speed * Distance
-bus_totaltime = bus_time + waiting
+total_distance=4 #in miles
+bus_speed=25 #25miles per hour
+total_stops=10
+time_waste=total_stops*2 #2 minutes at each stops
+time_per_mile=(1/25)*60
 
-speed1 = 7/60       #converted mph to mpm(miles per minute)
-speed2 = 15/60
-time_7mpm = speed1*2
-time_15mpm = speed2*2
-jog_totaltime = time_7mpm + time_15mpm
+total_time_covered=(time_per_mile*total_distance)+time_waste
 
-if bus_totaltime>jog_totaltime:
-    print(f"Bus will be Faster than Jogging.")
-elif bus_totaltime<jog_totaltime:
-    print(f"Jogging will be Faster than Travelling by Bus.")
+#time taken on foot
+
+
+time_taken_for_2_miles_at_7mph= (1/7)*60 #in minutes
+time_taken_for_2_miles_at_15mph= (1/15)*60 #in minutes
+time_covered_by_foot = time_taken_for_2_miles_at_15mph + time_taken_for_2_miles_at_7mph
+if (total_time_covered<time_covered_by_foot):
+    print(f"Bus is faster")
 else:
-    print(f"Both Jogging and Travelling by Bus take same time.")
+    print(f"By foot is faster")

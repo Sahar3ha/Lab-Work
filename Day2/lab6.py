@@ -3,7 +3,7 @@ Distance = 4
 bus_speed = 25/60    #converted mph to mpm(miles per minute) -> 0.41 mpm
 wait_time = 2
 bus_stops = 10
-waiting = wait_time * bus_stops #20
+waiting = wait_time * bus_stops 
 
 bus_time = Distance / bus_speed 
 bus_totaltime = bus_time + waiting

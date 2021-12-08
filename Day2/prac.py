@@ -50,7 +50,7 @@
   #  print(table,"*", count, "*", answer)
    # count -=1 
 
-#answer = input("What is the answer? a, b, c pr d?\n")
+#answer = input("What is the answer? a, b, c or d?\n")
 #while answer !="a" and answer !="b" and answer !="c" and answer !="d":
  #   answer = input("please input a,b,c,d")
 #print("Your choice:",answer)  
@@ -65,4 +65,3 @@
    # print(sum)
 #print("The sum is : ", sum)    
 
-num = int(input("Enter a number : "))

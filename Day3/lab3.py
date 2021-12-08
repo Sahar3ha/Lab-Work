@@ -1,11 +1,6 @@
 #Check whether the user input number is even or odd and display it to user.
-list1 = []
-num = int(input("Enter number of elements in list: "))
-
-# iterating till num to append elements in list
-for i in range(1, num + 1):
-	ele= int(input("Enter elements: "))
-	list1.append(ele)
-	
-# print maximum element
-print("Smallest element is:", min(list1))
+user_number = int(input("Enter your number : "))
+if (user_number%2) == 0 :
+    print("{0} is even".format(user_number))
+else  :
+    print("{0} is odd".format(user_number))

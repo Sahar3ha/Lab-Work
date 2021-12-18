@@ -1,67 +1,89 @@
-#x = 0
-#while (x <4):
- #   print(x)
-  #  x = x+1
+#ef add():
+  #  x = 10
+   # y = 20
+   # c =x+y
+  #  print(c)
+#add()    
 
-#a = 1
-#while a<=5:
- #   print(a)
-  #  a+=1
-#else:
- #   print("while condition false so else part executed")
-#print("Rest of the code")
-#i = 1
-#while i<=10:
-#    continue
-#print(i)
-#i = 0
-#while True:
- #   i+=1
-  #  print(i)
-   # if(i==3):
-    #    continue
-#print("Rest of the code")
-#i =1 
-#while i<=5:
- #   print("outer loop :",i)
-  #  i = i+1
-   # j = 1
-    #while j<=3 :
-     #   print("inner loop :",j)
-      #  j+=1
-#print("Rest of the code")
+#def login(username,password):
+ #   print("Your user name is :{username} and your password is :{password}")
+#login("sunil","Battle")    
 
+#def first (name):
+ #   print('your name is', name)
+#first('Jack','jill')    
 
-#number  = int(input("Enter a number : ")
-#count = 1
-#while i<=10:
-  #  print("2 x 1 :")
-   # if i == 11:
-    #    break
-    #print(i)
-    #i = i +1        
+#def add(first, second):
+ #   ans = first + second
+ #   print("The sum is ", ans)
+#add(4,6)    
 
-#table = int(input('Enter a number for multiplication'))
+#def add(a,b):
+ #   add = a + b
+  #  print("the sum is", add)
+#add(30,8)    
 
-#count = 10
+#def pw(x,y):
+ #   z = x**y
+  #  print(z)
+#pw(5,2)    
 
-#while count >= 1:
- #   answer = table * count
-  #  print(table,"*", count, "*", answer)
-   # count -=1 
+#def show(name, age=20):
+ #   print(name,age)
+#show(name="sunil",age = 30)   
 
-#answer = input("What is the answer? a, b, c or d?\n")
-#while answer !="a" and answer !="b" and answer !="c" and answer !="d":
- #   answer = input("please input a,b,c,d")
-#print("Your choice:",answer)  
+#def show(*num):
+ #   z = num[0]+num[1]+num[2]
+  #  print(z) 
+#show(5,6,7,)    
 
-#num = int(input("Enter the number"))
-#print(num)
-#sum = 0
-#i=1
-#while i<=num:
- #   sum = sum+i
-  #  i = i+1
-   # print(sum)
-#print("The sum is : ", sum)    
+#def show(**num):
+ #   z = num['a']+num['b']+num['c']
+  #  print(z) 
+#show(a=5,b=6,c=7)    
 
+#def add(x,y=6):
+ #   x=10
+  #  c=x+y
+   # return c
+#sum = add(20)
+#print(sum)    
+
+#with no argument and return value
+#def adding():
+ # x=20
+  #y=30
+ # sum=x+y
+ # print("The sum is",sum)
+#adding()  
+
+#Python Function with No argument and with a Return Value
+#def multiplication():
+ # a=25
+  #b=10
+  #multi=a*b
+  #return multi
+#print("After calling Multiplication",multiplication())
+
+#Add Two Number using function
+#def add_two(a,b):
+# return a+b
+
+#g=int(input("Enter first number "))
+#h=int(input("Enter second number "))
+#c=add_two(g,h)
+#print(c) 
+
+#
+#def function1(a, b):
+  #print("Hello you are in funtion 1", a+b)
+
+#def function2(a,b):
+ #'''This is a function which will calculate average of two numbers this function doesnt works for thee numbers '''
+  #average = (a+b)/2
+ # #print(average)
+#  return average
+
+# v = function(5,7)
+# print(v)
+#print(function2.__doc__)

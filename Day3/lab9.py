@@ -2,6 +2,6 @@
 
 number = int(input("Enter a number "))
 sumofdigits = 0
-for digit in str(number):
+for digit in len(number):
     sumofdigits += int(digit)
 print(sumofdigits)    
